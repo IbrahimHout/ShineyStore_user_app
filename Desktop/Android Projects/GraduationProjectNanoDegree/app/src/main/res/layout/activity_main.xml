@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backGroundGray"
+    tools:context=".MainActivity">
+
+    
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainToolbar"
+        android:background="@color/backgroundBlueColor"
+        app:title="Main"
+        app:titleTextColor="#fff"
+        >
+
+        <Button
+            android:id="@+id/signOutTest"
+            android:text="Sign out test button"
+            android:onClick="signOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+    </androidx.appcompat.widget.Toolbar>
+    <!---->
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"></ScrollView>-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textColor="@color/grayFont"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/categoriesRecyclerView"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/progressBar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/noItemsTV"/>
+    </FrameLayout>
+
+</LinearLayout>

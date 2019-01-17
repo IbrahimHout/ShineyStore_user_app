@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GraduationProjectNanoDegree</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="emil">Emil</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="Sign_up">Sign up</string>
+    <string name="display_name">Display Name</string>
+    <string name="shopping_like_never_nbefore">Shopping Like Never  Before</string>
+    <string name="logging_in">Logging In</string>
+    <string name="wait_for_a_second">Please wait a second</string>
+    <string name="make_sure_u_filled">Make sure you filled the spaces</string>
+    <string name="sth_went_wrong">Something went Wrong, can\'t log in</string>
+    <string name="ure_ready_togo">You\'re ready to go!</string>
+</resources>

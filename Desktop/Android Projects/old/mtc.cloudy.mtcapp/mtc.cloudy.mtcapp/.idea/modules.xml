@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropper/cropper.iml" filepath="$PROJECT_DIR$/cropper/cropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryCart/libraryCart.iml" filepath="$PROJECT_DIR$/libraryCart/libraryCart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mtc.cloudy.mtcapp.iml" filepath="$PROJECT_DIR$/mtc.cloudy.mtcapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multipleimageselect/multipleimageselect.iml" filepath="$PROJECT_DIR$/multipleimageselect/multipleimageselect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rvSliderlibrary/rvSliderlibrary.iml" filepath="$PROJECT_DIR$/rvSliderlibrary/rvSliderlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" filepath="$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-validations-library/z-validations-library.iml" filepath="$PROJECT_DIR$/z-validations-library/z-validations-library.iml" />
+    </modules>
+  </component>
+</project>
